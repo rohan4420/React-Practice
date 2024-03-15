@@ -1,0 +1,26 @@
+body {
+  background: var(--primary-100);
+}
+
+.container {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  margin: 5rem 0;
+  background: var(--white);
+  border-radius: var(--borderRadius);
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow-1);
+}
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.person img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-3);
+}
